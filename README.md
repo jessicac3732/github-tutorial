@@ -30,6 +30,15 @@ _by Jessica Cai_
     _To create an SSH key_  
     *  Go to your profile in settings and click on settings.  ![](icon.png)
     *  On the left hand side in personal settings click on SSH and GPG key. ![](step2.png)
+    *  Then click on the green button that says New SSH key.
+    *  Name the title cloud9.
+    *  To get the key go to your cloud9 settings.
+    *  Click on SSH key.
+    *  Copy the key that connects to your private git repository. 
+    *  Go back to Github an paste this key into the place that says key.
+    *  Then press Add SSH key.
+    *  Lastly to make sure that everything is done right do ssh -T git@github.com, to comfirm that you have created an SSH key.
+
 
 ---
 ## Repository Setup
