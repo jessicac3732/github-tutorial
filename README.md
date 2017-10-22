@@ -42,7 +42,7 @@ _by Jessica Cai_
 
 ---
 ## Repository Setup
-1. First you want to make sure that you are in the workspace directory, if you are not in the right directory then do   `cd ~/workspace.`
+1. First you want to make sure that you are in the workspace directory, if you are not in the right directory then do. `cd ~/workspace.`
 2. Create the repository. `mkdir filename`
 3. Go into the new repository made. `cd filename`
 4. Initalize git. `git init`
@@ -60,18 +60,84 @@ _by Jessica Cai_
         * `git push -u origin master`
             * **git** = git command. **push** = that sends commits to the remote repo. **origin** = the remote where you send the commits. **master** = main branch. **-u** = upstream, saves the origin and master, so next time you can just do `git push`.
 
+
 ---
 ## Workflow & Commands
+#### Git Commands
 `git add filename` = Deciding what specific files you what to add to the staging area to be committed.  
+
 `git add .` = Adds everything in a folder to the staging area to be committed.  
+
 `git add --all` = Adds all changes, including deleted files, to the staging area.  
-`git commit -m "type in a message (present tense)"` = Takes a snapshot of the file and puts in the staging area.           
+
+`git commit -m "type in a message (present tense)"` = Takes a snapshot of the file and puts in the staging area.   
+
 `git log` = Sees all past commits
     * To get out of `git log` you can press Q for quit.   
         _* Note: ^ means control_  
-`git status` = To see which files in the staging area is ready to be committed.   
         
+`git status` = To see which files in the staging area is ready to be committed.   
+
+`git diff` = Shows previous snapshots of your code and your current code.  
+
+`rm -rf .git` = To undo git init, by deleting the folder.  
+
+#### General Commands
+`pwd` = Prints working directory, lists all the content of the directory you are currently in.  
+
+`ls` = Lists all directories and files of the directory you are in.  
+`cd` = Changes the directory you are in.  
+
+`mkdir` = Makes new directory.  
+
+`rmdir` = Delete empty directory.   
+
+`rm -rf` = Deletes a non-empty directory. -rf means that it will continue to delete with force nonstop until everything is gone, permanently.  
+
+`mv`(_rename_) = Renames a file by putting it’s old name as the first argument and the new name as the second argument.  
+
+`mv`(_move_) = Moves a file from one directory to another. Can move one or multiple sources. To move one or multiple sources the first argument is the sources names and the second argument is the destination.
 
 
 ---
 ## Rolling Back Changes
+`git checkout -- filename` = To undo an edit. (_Can be found when you type git status._)
+
+`git reset HEAD filename` = To undo git add by removing something from the staging area. (_Can be found when you type git status._)
+
+`git reset --soft HEAD~` = To undo a commit. (_Search on google git undo commit. This command can be found on the stackoverflow website._)
+
+`git reset HEAD~` = To undo a add and a commit. (_This command can be found on stackoverflow, in the same place where the git reset  --soft HEAD~ command can be found._)
+
+`git reset --hard HEAD~` = To undo an edit, an add, and an commit. (_This command can be found on stackoverflow, in the same place where the git reset --soft HEAD~ command can be found._)
+
+`git revert sha numbers (a,b,c)` = To undo commits that have already been pushed. It goes back to the previous commit. 
+* To get the sha numbers, you must first do `git log`.
+* (a,b,c) = a - most recent commit, b - the commit before them, c - the third recent commit 
+
+
+## Collaboration
+#### Cloning
+`git clone URL` = Make a copy of someone else's repository.
+* It can make a copy of someone elses remote repository, that way you have their repository on your local. However, you will not be able to push or pull anything from that repository because you do not have the owners permission. 
+
+### Forking 
+* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
