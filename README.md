@@ -70,6 +70,10 @@ _by Jessica Cai_
 
 `git add --all` = Adds all changes, including deleted files, to the staging area.  
 
+`git push` = Sends your commits to the remote repo.
+
+`git pull` = Brings down the changes from the remote repo to the local repo.
+
 `git commit -m "type in a message (present tense)"` = Takes a snapshot of the file and puts in the staging area.   
 
 `git log` = Sees all past commits
@@ -119,13 +123,22 @@ _by Jessica Cai_
 ## Collaboration
 #### Cloning
 `git clone URL` = Make a copy of someone else's repository.
-* It can make a copy of someone elses remote repository, that way you have their repository on your local. However, you will not be able to push or pull anything from that repository because you do not have the owners permission. 
+* It can make a copy of someone elses remote repository, that way you have their remote repository on your local. However, you will not be able to push or pull anything from that repository because you do not have the owners permission. It is not your repository. 
 
 ### Forking 
-* 
+* It will make a copy of someone else's remote repository, but the copy made will now become apart of your own remote repository. Then you will clone the repository that is now in your remote to your local. This way you can push or pull from the repository because it is your own repository. 
+* _You can fork your own repositories._
+* `git remote -v` = can help you see which remote repos are in your local repo. (_You will see a nickname and a URL_)
+    * `-v` = _verbose_ 
 
-
-
+### Pull Requests
+1. First **fork** someone else's repository.
+2. Then clone the repo you made a copy of into your local. `git clone URL` (_The URL is on github, there is a green button that says clone or download._)
+3. Next make some changes to the file in the repository. Add, commit, and push those changes.
+4. Go back to github and find the button that says _New pull request._ Click on it.
+5. Then click on a green button called _Create pull request._ Afterwards you will see this button again, click it again. 
+6. You have just sent your request to the owner of the repository, now you just wait to see if they accept your request or not.
+    * If you do accept other peoples request you can use `git pull`, to see the changes they have made to your repository
 
 
 
