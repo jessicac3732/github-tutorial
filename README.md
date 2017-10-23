@@ -68,11 +68,11 @@ _by Jessica Cai_
 ---
 ## Workflow & Commands
 #### Git Commands
-`git add <filename>` = Deciding what specific files you what to add to the staging area to be committed.  
+`git add <filename>` = Adds the  specific files you want to add to the staging area to be committed.  
 
 `git add .` = Adds everything in a folder to the staging area to be committed.  
 
-`git add --all` = Adds all changes, including deleted files, to the staging area.  
+`git add --all` = Adds all changes, including deleted files and renamed files, to the staging area.  
 
 `git push` = Sends your commits to the remote repo.
 
@@ -86,14 +86,15 @@ _by Jessica Cai_
         
 `git status` = To see which files in the staging area is ready to be committed.   
 
-`git diff` = Shows previous snapshots of your code and your current code.  
+`git diff` = Shows the difference between your previous snapshots of your code and your current code.  
 
-`rm -rf .git` = To undo git init, by deleting the folder.  
+`rm -rf .git` = Deletes the hidden .git folder to uninitialize git.  
 
 #### General Commands
 `pwd` = Prints working directory, lists all the content of the directory you are currently in.  
 
 `ls` = Lists all directories and files of the directory you are in.  
+
 `cd` = Changes the directory you are in.  
 
 `mkdir` = Makes new directory.  
@@ -102,9 +103,9 @@ _by Jessica Cai_
 
 `rm -rf` = Deletes a non-empty directory. -rf means that it will continue to delete with force nonstop until everything is gone, permanently.  
 
-`mv`(_rename_) = Renames a file by putting it’s old name as the first argument and the new name as the second argument.  
+`mv <old filename> <new filename> `= Renames a file by putting it’s old name as the first argument and the new name as the second argument.  
 
-`mv`(_move_) = Moves a file from one directory to another. Can move one or multiple sources. To move one or multiple sources the first argument is the sources names and the second argument is the destination.
+`mv <filename><name of directory you want to move it to>` = Moves a file from one directory to another. Can move one or multiple sources. To move one or multiple sources the first argument is the sources names and the second argument is the destination.
 
 
 ---
