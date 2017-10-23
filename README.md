@@ -29,7 +29,7 @@ _by Jessica Cai_
 3. Then open both accounts and go to your GitHub account and create an SSH key.    
     _To create an SSH key_  
     *  Go to your profile in settings and click on settings.  
-    *  On the left hand side in personal settings click on SSH and GPG key. 
+    *  On the left hand side in personal settings click on SSH and GPG key. ![](step2.png)
     *  Then click on the green button that says New SSH key.
     *  Name the title cloud9.
     *  To get the key go to your cloud9 settings.
@@ -111,7 +111,7 @@ _by Jessica Cai_
 ## Rolling Back Changes
 `git checkout -- filename` = To undo an edit. (_Can be found when you type git status._)
 
-`git reset HEAD filename` = To undo git add by removing something from the staging area. (_Can be found when you type git status._)
+`git reset HEAD filename` = To undo an add by removing something from the staging area. (_Can be found when you type git status._)
 
 `git reset --soft HEAD~` = To undo a commit. (_Search on google git undo commit. This command can be found on the stackoverflow website._)
 
