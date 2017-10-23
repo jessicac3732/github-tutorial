@@ -28,8 +28,8 @@ _by Jessica Cai_
     * Go to c9.io, create a password and username.
 3. Then open both accounts and go to your GitHub account and create an SSH key.    
     _To create an SSH key_  
-    *  Go to your profile in settings and click on settings.  ![](icon.png)
-    *  On the left hand side in personal settings click on SSH and GPG key. ![](step2.png)
+    *  Go to your profile in settings and click on settings.  
+    *  On the left hand side in personal settings click on SSH and GPG key. 
     *  Then click on the green button that says New SSH key.
     *  Name the title cloud9.
     *  To get the key go to your cloud9 settings.
@@ -42,7 +42,7 @@ _by Jessica Cai_
 
 ---
 ## Repository Setup
-1. First you want to make sure that you are in the workspace directory, if you are not in the right directory then do. `cd ~/workspace.`
+1. First you want to make sure that you are in the workspace directory, if you are not in the right directory then do `cd ~/workspace`.
 2. Create the repository. `mkdir filename`
 3. Go into the new repository made. `cd filename`
 4. Initalize git. `git init`
@@ -52,7 +52,11 @@ _by Jessica Cai_
 8. Next commit the file to the staging area. `git commmit -m "type in a comment, in present tense"`
     * This takes a screenshot of the code, that you can later refer back too using `git log`.
     * You check if a file is commited or not by doing `git status`.
-9. Lastly push the file to your github account.
+9. Next go to your github account and press a plus sign in the top right hand corner, and then click on make a _New Repository_.
+10. Then make the new repositorys name the same name as what you named it in your cloud9 and click on the button create repository.
+    * If you are asked to verify by email do it.
+    * After this step, the next page will show a quick setup, make sure you are on the SSH key and not on HTTPS. You can copy the two lines of code in the section it says to "...or push an existing repository from the command line" and paste that in the cloud9 terminal. Then refresh the github page. (Steps explained further on the last step.)
+11. Lastly, go back to your cloud9 and create a connection between your remote and local repo, so you can push your file to your github account.
     * First create a connection between your remote and local repo.
         * `git add remote origin URL` / _change URL to your github repo URL_
             * **git** = git command. **add** = add remote repo. **origin** = gives it a nickname. **URL** = Link to the place you are making the connection too. 
