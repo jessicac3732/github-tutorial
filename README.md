@@ -124,7 +124,7 @@ _by Jessica Cai_
 * To get the sha numbers, you must first do `git log`.
 * (a,b,c) = a - most recent commit, b - the commit before them, c - the third recent commit 
 
-
+---
 ## Collaboration
 #### Cloning
 `git clone URL` = Make a copy of someone else's repository.
