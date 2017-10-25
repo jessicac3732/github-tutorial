@@ -28,12 +28,17 @@ _by Jessica Cai_
     * Go to c9.io, create a password and username.
 3. Then open both accounts and go to your GitHub account and create an SSH key.    
     _To create an SSH key_  
-    *  Go to your profile in settings and click on settings.  ![](icon.png)
-    *  On the left hand side in personal settings click on SSH and GPG key. ![](GithubSSH.png)
-    *  Then click on the green button that says New SSH key.  ![](CreateSSH,png)
+    *  Go to your profile in settings and click on settings.  
+       ![](icon.png)
+    *  On the left hand side in personal settings click on SSH and GPG key. 
+        ![](GithubSSH.png)
+    *  Then click on the green button that says New SSH key.  
+        ![](CreateSSH,png)
     *  Name the title cloud9.
-    *  To get the key go to your cloud9 settings.  ![](Cloud9setting.png)
-    *  Click on SSH key. ![](cloud9SS.png)
+    *  To get the key go to your cloud9 settings.  
+        ![](Cloud9setting.png)
+    *  Click on SSH key. 
+        ![](cloud9SSH.png)
     *  Copy the key that connects to your private git repository. 
     *  Go back to Github an paste this key into the place that says key.
     *  Then press Add SSH key.
