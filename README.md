@@ -35,7 +35,7 @@ _by Jessica Cai_
 
     *  Then click on the green button that says New SSH key.  
     
-        ![](CreateSSH,png)
+        ![](https://github.com/jessicac3732/github-tutorial/blob/master/CreateSSH.png)
     *  Name the title cloud9.
     *  To get the key go to your cloud9 settings.  
     
