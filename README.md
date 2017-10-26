@@ -35,12 +35,12 @@ _by Jessica Cai_
     *  Then click on the green button that says New SSH key.  
         ![](https://github.com/jessicac3732/github-tutorial/blob/master/CreateSSH.png)
     *  Name the title cloud9.
-    *  To get the key go to your cloud9 settings.                   ![](https://github.com/jessicac3732/github-tutorial/blob/master/Cloud9settings.png)
+    *  To get the key go to your cloud9 settings.                      ![](https://github.com/jessicac3732/github-tutorial/blob/master/Cloud9settings.png)
     *  Click on SSH key. 
-        ![](https://github.com/jessicac3732/github-tutorial/blob/master/cloud9SSH.png)
     *  Copy the key that connects to your private git repository. 
     *  Go back to Github an paste this key into the place that says key.
     *  Then press Add SSH key.
+        ![](https://github.com/jessicac3732/github-tutorial/blob/master/add-ssh-key.png)
     *  Lastly to make sure that everything is done right do ssh -T git@github.com, to comfirm that you have created an SSH key.
 
 
@@ -88,7 +88,8 @@ _by Jessica Cai_
     * To get out of `git log` you can press Q for quit.   
         _* Note: ^ means control_  
         
-`git status` = To see which files in the staging area is ready to be committed.   
+`git status` = To see which files in the staging area is ready to be committed. Red means not staged, and green means ready to commit.  
+![](https://github.com/jessicac3732/github-tutorial/blob/master/git-status2.png)
 
 `git diff` = Shows previous snapshots of your code and your current code.  
 
@@ -158,6 +159,7 @@ _by Jessica Cai_
 2. Then clone the repo you made a copy of into your local. `git clone URL` (_The URL is on github, there is a green button that says clone or download._)
 3. Next make some changes to the file in the repository. Add, commit, and push those changes.
 4. Go back to github and find the button that says _New pull request._ Click on it.
+![](https://github.com/jessicac3732/github-tutorial/blob/master/new-pull-request.png)
 5. Then click on a green button called _Create pull request._ Afterwards you will see this button again, click it again. 
 6. You have just sent your request to the owner of the repository, now you just wait to see if they accept your request or not.
     * If you do accept other peoples request you can use `git pull`, to see the changes they have made to your repository.
