@@ -36,7 +36,7 @@ _by Jessica Cai_
         ![](https://github.com/jessicac3732/github-tutorial/blob/master/CreateSSH.png)
     *  Name the title cloud9.
     *  To get the key go to your cloud9 settings.  
-        ![](Cloud9setting.png)
+        ![](https://github.com/jessicac3732/github-tutorial/blob/master/Cloud9settings.png)
     *  Click on SSH key. 
         ![](https://github.com/jessicac3732/github-tutorial/blob/master/cloud9SSH.png)
     *  Copy the key that connects to your private git repository. 
@@ -140,6 +140,12 @@ _by Jessica Cai_
 #### Cloning
 `git clone URL` = Make a copy of someone else's repository.
 * It can make a copy of someone elses remote repository, that way you have their remote repository on your local. However, you will not be able to push or pull anything from that repository because you do not have the owners permission. It is not your repository. 
+    * To clone first go to to the github page of the repository you want to clone.
+    * Then press the clone button, make sure it says SSH.
+    ![](https://github.com/jessicac3732/github-tutorial/blob/master/clone-button.png)
+    * Then copy the URL.
+    ![](https://github.com/jessicac3732/github-tutorial/blob/master/clone-URL.png)
+    * Go back to your cloud9 terminal and type git clone and paste the URL.
 
 ### Forking 
 * It will make a copy of someone else's remote repository, but the copy made will now become apart of your own remote repository. Then you will clone the repository that is now in your remote to your local. This way you can push or pull from the repository because it is your own repository. 
@@ -149,6 +155,7 @@ _by Jessica Cai_
 
 ### Pull Requests
 1. First fork someone else's repository.
+![](https://github.com/jessicac3732/github-tutorial/blob/master/fork.png)
 2. Then clone the repo you made a copy of into your local. `git clone URL` (_The URL is on github, there is a green button that says clone or download._)
 3. Next make some changes to the file in the repository. Add, commit, and push those changes.
 4. Go back to github and find the button that says _New pull request._ Click on it.
