@@ -31,13 +31,17 @@ _by Jessica Cai_
     *  Go to your profile in settings and click on settings.  
        ![](icon.png)
     *  On the left hand side in personal settings click on SSH and GPG key. 
-        ![](GithubSSH.png)
+           ![](GithubSSH.png)
+
     *  Then click on the green button that says New SSH key.  
+    
         ![](CreateSSH,png)
     *  Name the title cloud9.
     *  To get the key go to your cloud9 settings.  
+    
         ![](Cloud9setting.png)
     *  Click on SSH key. 
+    
         ![](cloud9SSH.png)
     *  Copy the key that connects to your private git repository. 
     *  Go back to Github an paste this key into the place that says key.
@@ -96,9 +100,11 @@ _by Jessica Cai_
 `rm -rf .git` = To undo git init, by deleting the folder.  
 
 #### General Commands
-`pwd` = Prints working directory, lists all the content of the directory you are currently in.  
+`pwd` = Prints working directory, shows you were you are in your directory.
+ ![](pwd,png)
 
-`ls` = Lists all directories and files of the directory you are in.  
+`ls` = Lists all directories and files of the directory you are in.  ![](ls,png) 
+
 `cd` = Changes the directory you are in.  
 
 `mkdir` = Makes new directory.  
@@ -116,6 +122,8 @@ _by Jessica Cai_
 ## Rolling Back Changes
 `git checkout -- filename` = To undo an edit. (_Can be found when you type git status._)
 
+ ![](git-status,png)
+
 `git reset HEAD filename` = To undo an add by removing something from the staging area. (_Can be found when you type git status._)
 
 `git reset --soft HEAD~` = To undo a commit. (_Search on google git undo commit. This command can be found on the stackoverflow website._)
@@ -128,7 +136,10 @@ _by Jessica Cai_
 * To get the sha numbers, you must first do `git log`.
 * (a,b,c) = a - most recent commit, b - the commit before them, c - the third recent commit 
 
+ ![](git-log,png)
 
+
+---
 ## Collaboration
 #### Cloning
 `git clone URL` = Make a copy of someone else's repository.
