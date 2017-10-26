@@ -29,20 +29,16 @@ _by Jessica Cai_
 3. Then open both accounts and go to your GitHub account and create an SSH key.    
     _To create an SSH key_  
     *  Go to your profile in settings and click on settings.  
-       ![](icon.png)
+       ![](https://github.com/jessicac3732/github-tutorial/blob/master/icon.png)
     *  On the left hand side in personal settings click on SSH and GPG key. 
-           ![](GithubSSH.png)
-
+           ![](https://github.com/jessicac3732/github-tutorial/blob/master/GithubSSH.png)
     *  Then click on the green button that says New SSH key.  
-    
         ![](https://github.com/jessicac3732/github-tutorial/blob/master/CreateSSH.png)
     *  Name the title cloud9.
     *  To get the key go to your cloud9 settings.  
-    
         ![](Cloud9setting.png)
     *  Click on SSH key. 
-    
-        ![](cloud9SSH.png)
+        ![](https://github.com/jessicac3732/github-tutorial/blob/master/cloud9SSH.png)
     *  Copy the key that connects to your private git repository. 
     *  Go back to Github an paste this key into the place that says key.
     *  Then press Add SSH key.
@@ -101,9 +97,9 @@ _by Jessica Cai_
 
 #### General Commands
 `pwd` = Prints working directory, shows you were you are in your directory.
- ![](pwd,png)
+ ![](https://github.com/jessicac3732/github-tutorial/blob/master/pwd.png)
 
-`ls` = Lists all directories and files of the directory you are in.  ![](ls,png) 
+`ls` = Lists all directories and files of the directory you are in.  ![](https://github.com/jessicac3732/github-tutorial/blob/master/ls.png) 
 
 `cd` = Changes the directory you are in.  
 
@@ -122,7 +118,7 @@ _by Jessica Cai_
 ## Rolling Back Changes
 `git checkout -- filename` = To undo an edit. (_Can be found when you type git status._)
 
- ![](git-status,png)
+ ![](https://github.com/jessicac3732/github-tutorial/blob/master/git-status.png)
 
 `git reset HEAD filename` = To undo an add by removing something from the staging area. (_Can be found when you type git status._)
 
@@ -136,7 +132,7 @@ _by Jessica Cai_
 * To get the sha numbers, you must first do `git log`.
 * (a,b,c) = a - most recent commit, b - the commit before them, c - the third recent commit 
 
- ![](git-log,png)
+ ![](https://github.com/jessicac3732/github-tutorial/blob/master/git-log.png)
 
 
 ---
