@@ -35,8 +35,7 @@ _by Jessica Cai_
     *  Then click on the green button that says New SSH key.  
         ![](https://github.com/jessicac3732/github-tutorial/blob/master/CreateSSH.png)
     *  Name the title cloud9.
-    *  To get the key go to your cloud9 settings.  
-        ![](https://github.com/jessicac3732/github-tutorial/blob/master/Cloud9settings.png)
+    *  To get the key go to your cloud9 settings.                   ![](https://github.com/jessicac3732/github-tutorial/blob/master/Cloud9settings.png)
     *  Click on SSH key. 
         ![](https://github.com/jessicac3732/github-tutorial/blob/master/cloud9SSH.png)
     *  Copy the key that connects to your private git repository. 
